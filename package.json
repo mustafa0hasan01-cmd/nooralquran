@@ -1,0 +1,14 @@
+{
+  "name": "noor-alquran-android",
+  "version": "1.0.0",
+  "description": "تطبيق نور القرآن الكريم - المصحف الشريف وتلاوات الشيخ ياسر الدوسري والأذكار ومواقيت الصلاة والقبلة",
+  "scripts": {
+    "cap:init": "npx @capacitor/cli init",
+    "cap:android": "npx @capacitor/cli add android && npx @capacitor/cli copy android && npx @capacitor/cli open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  }
+}
